@@ -87,3 +87,37 @@ a {
 a:hover {
   opacity: 0.8; 
 }
+
+div h4{
+  margin-left: 155px ;
+  position: center;
+}
+
+.content{
+  font-size: 25px;
+  width: 500px; 
+  margin: 50px auto; 
+  padding: 20px;
+  padding-top: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  background-color: #fff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: black;
+  position: absolute; /* Position the form absolutely */
+  top: 50%; /* Move the form 50% from the top */
+  left: 50%; /* Move the form 50% from the left */
+  transform: translate(-50%, -50%); /* Translate the form to center it */
+}
+
+.button2 {
+  background-color: rgb(207, 69, 69); 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px; 
+  margin-top: 20px;
+  width: 100%; 
+}
